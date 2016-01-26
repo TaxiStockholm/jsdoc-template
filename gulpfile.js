@@ -42,7 +42,7 @@ gulp
 gulp
   .task('watch', () =>
     gulp
-      .watch('./src/**/*.scss', ['sass']))
+      .watch('./src/**/*', ['sass']))
 
 gulp
   .task('default', ['sass', 'watch'])
