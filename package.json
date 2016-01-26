@@ -1,0 +1,30 @@
+{
+  "name": "jsdoc-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/style.css",
+  "scripts": {
+    "start": "./node_modules/.bin/gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TaxiStockholm/jsdoc-template.git"
+  },
+  "ignore": [
+    "src"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TaxiStockholm/jsdoc-template/issues"
+  },
+  "homepage": "https://github.com/TaxiStockholm/jsdoc-template#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-sass": "^2.1.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "run-sequence": "^1.1.5"
+  }
+}
