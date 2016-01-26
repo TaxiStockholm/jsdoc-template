@@ -2,7 +2,7 @@
   "name": "jsdoc-template",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/style.css",
+  "main": "dist/style.min.css",
   "scripts": {
     "start": "./node_modules/.bin/gulp"
   },
@@ -11,6 +11,10 @@
     "url": "git+https://github.com/TaxiStockholm/jsdoc-template.git"
   },
   "ignore": [
+    ".gitignore",
+    ".npmignore",
+    "gulpfile.js",
+    "package.json",
     "src"
   ],
   "author": "",

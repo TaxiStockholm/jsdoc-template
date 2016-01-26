@@ -22,7 +22,7 @@ gulp
         cascade: false
       }))
       .pipe(concat('style.css'))
-      .pipe(sourcemaps.write())
+      .pipe(sourcemaps.write('.'))
       .pipe(gulp.dest('./dist')))
 
 gulp
