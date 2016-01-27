@@ -11,6 +11,16 @@ body, html {
   }
 }
 
+a {
+  border-bottom: 1px solid $color-black;
+  &:hover,
+  &:active,
+  &:focus {
+    border-bottom-color: $color-energy-yellow;
+    text-decoration: none;
+  }
+}
+
 h1, h2, h3, h4, h5, h6, .sidenav > li > a, .btn, pre:before {
   text-shadow: none;
   letter-spacing: 0.01em;

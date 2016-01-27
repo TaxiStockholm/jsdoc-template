@@ -38,6 +38,12 @@ html * {
   font-weight: 400 !important;
   font-stretch: expanded !important; }
 
+a {
+  border-bottom: 1px solid black; }
+  a:hover, a:active, a:focus {
+    border-bottom-color: #f5df67;
+    text-decoration: none; }
+
 h1, h2, h3, h4, h5, h6, .sidenav > li > a, .btn, pre:before {
   text-shadow: none;
   letter-spacing: 0.01em;
