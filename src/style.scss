@@ -77,6 +77,26 @@ a {
   background: rgba(242, 242, 242, 0.9);
 }
 
+#scrollingNav {
+  > .sidenav {
+    &,
+    & * {
+      box-sizing: border-box;
+    }
+    &:before {
+      content: ' ';
+      background-image: url('images/logo_white.png');
+      background-size: 70%;
+      background-position: top center;
+      background-repeat: no-repeat;
+      display: block;
+      height: 80px;
+      width: auto;
+      padding: 20px;
+    }
+  }
+}
+
 .sidenav {
   background-color: $color-mine-shaft-dark;
   > li {

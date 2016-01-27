@@ -5,6 +5,7 @@ const sass = require('gulp-sass')
 const concat = require('gulp-concat')
 const sourcemaps = require('gulp-sourcemaps')
 const autoprefixer = require('gulp-autoprefixer')
+const cssBase64 = require('gulp-css-base64')
 const runSequence = require('run-sequence')
 
 gulp
@@ -21,6 +22,7 @@ gulp
         browsers: ['last 2 versions'],
         cascade: false
       }))
+      .pipe(cssBase64())
       .pipe(concat('style.css'))
       .pipe(sourcemaps.write('.'))
       .pipe(gulp.dest('./dist')))
@@ -36,6 +38,7 @@ gulp
         browsers: ['last 2 versions'],
         cascade: false
       }))
+      .pipe(cssBase64())
       .pipe(concat('style.min.css'))
       .pipe(gulp.dest('./dist')))
 
