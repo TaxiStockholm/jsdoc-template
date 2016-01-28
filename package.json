@@ -1,6 +1,6 @@
 {
   "name": "jsdoc-template",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "",
   "main": "dist/style.min.css",
   "scripts": {
