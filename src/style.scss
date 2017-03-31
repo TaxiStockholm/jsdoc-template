@@ -6,7 +6,7 @@ body, html {
   * {
     text-shadow: none;
     font-family: $font-normal !important;
-    font-weight: 400 !important;
+    font-weight: 400;
     font-stretch: expanded !important;
   }
 }
@@ -32,7 +32,13 @@ h1, h2, h3, h4, h5, h6, .sidenav > li > a, .btn, pre:before {
 
 p {
   color: $color-dove-gray;
+  line-height: 1.5em;
   max-width: 720px;
+  padding-bottom: 10px;
+}
+
+strong {
+  font-weight: 800;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -180,7 +186,7 @@ pre {
         background-color: none;
         background: none;
         text-shadow: none;
-        color: $color-black;
+        color: $color-white;
         border-bottom: 2px solid $color-sunglow;
       }
     }
